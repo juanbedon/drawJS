@@ -1,0 +1,73 @@
+* { box-sizing: content-box; }
+html { height: 100%; }
+body {
+	height: 100%;
+	background-color: white;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.home {
+	background: -webkit-linear-gradient(180deg, #F8F9FA 50%, #F1ECE9 100%);
+	background:    -moz-linear-gradient(180deg, #F8F9FA 50%, #F1ECE9 100%);
+	background:     -ms-linear-gradient(180deg, #F8F9FA 50%, #F1ECE9 100%);
+	background:      -o-linear-gradient(180deg, #F8F9FA 50%, #F1ECE9 100%);
+	background:         linear-gradient(180deg, #F8F9FA 50%, #F1ECE9 100%);
+}
+
+/* Navbar */
+
+.navbar-usage {
+	border-bottom: 0.2px solid rgba(163, 176, 189, 0.5);
+}
+.navbar-brand {
+	font-size: 1.3rem;
+}
+
+.heavy {
+	font-weight: bold;
+}
+
+.vertical-divider {
+	border-right: 1.5px solid rgba(163, 176, 189, 0.3);
+}
+/* Navbar */
+
+.fa-keyboard, .fa-mouse-pointer {
+	font-size: 10rem;
+	color: #212529;
+}
+
+.fa-keyboard:hover, .fa-mouse-pointer:hover {
+	font-size: 10rem;
+	color: rgba(16, 18, 20, 0.6);
+}
+
+/* Canvas */
+canvas {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+/* Canvas */
+
+.disclaimer {
+	font-weight: bolder;
+	font-size: 1rem;
+	font-family: 'Domine', serif;
+}
+
+#disclaimer {
+	font-weight: bolder;
+	font-size: 1rem;
+	font-family: 'Domine', serif;
+	text-decoration: underline;
+	text-align: center;
+	color: red;
+}
+
+h1 {
+	font-weight: bolder;
+}
+
+footer {
+	position: fixed;
+}
